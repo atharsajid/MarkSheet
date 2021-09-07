@@ -5,10 +5,10 @@ void main() {
   var roll = 1234;
   var group = "sceince";
 
-  print("Name : $name");
-  print("Father name : $fathername");
-  print("Roll No : $roll");
-  print("Group : $group");
+  print("Name \t \t : \t $name");
+  print("Father name \t : \t $fathername");
+  print("Roll No \t : \t $roll");
+  print("Group \t \t : \t $group");
   print("");
 
   // Total mark is 100 of all Subject
@@ -19,20 +19,19 @@ void main() {
   var urd = 91;
 
   print("SUBJECTS");
-  print("Biology : $bio");
-  print("Mathmetics : $mat");
-  print("Chemistry : $chem");
-  print("Islamiat : $isl");
-  print("Urdu : $urd");
-  print("");
+  print("Biology \t : \t $bio");
+  print("Mathmetics \t : \t $mat");
+  print("Chemistry \t : \t $chem");
+  print("Islamiat \t : \t $isl");
+  print("Urdu \t \t : \t $urd \n");
 
   var totalmarks = 500;
   var obtainmarks = bio + mat + chem + isl + urd;
 
   var percentage = obtainmarks / totalmarks * 100;
 
-  print("Obtain Marks $obtainmarks");
-  print("Percentage $percentage%");
+  print("Obtain Marks \t : \t $obtainmarks");
+  print("Percentage \t : \t $percentage% \n");
 
   if (percentage >= 80) {
     print("A One Grade");
